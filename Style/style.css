@@ -271,17 +271,32 @@ svg circle:nth-child(2) {
 }
 
 .cards:nth-child(4) svg circle:nth-child(2) {
-  stroke-dashoffset: 110;
+  stroke-dashoffset: 120;
   stroke: #3E8CC6;
 }
 
 .cards:nth-child(5) svg circle:nth-child(2) {
-  stroke-dashoffset: 110;
+  stroke-dashoffset: 125;
   stroke: #3E8CC6;
 }
 
 .cards:nth-child(6) svg circle:nth-child(2) {
   stroke-dashoffset: 110;
+  stroke: #3E8CC6;
+}
+
+.resume__body-designskill-container .cards:nth-child(1) svg circle:nth-child(2) {
+  stroke-dashoffset: 110;
+  stroke: #3E8CC6;
+}
+
+.resume__body-designskill-container .cards:nth-child(2) svg circle:nth-child(2) {
+  stroke-dashoffset: 100;
+  stroke: #3E8CC6;
+}
+
+.resume__body-designskill-container .cards:nth-child(3) svg circle:nth-child(2) {
+  stroke-dashoffset: 125;
   stroke: #3E8CC6;
 }
 
@@ -775,6 +790,10 @@ button:hover, input[type=button]:hover, input[type=submit]:hover {
   }
 
   .resume__body-skill-container {
+    width: 50%;
+  }
+
+  .resume__body-designskill-container {
     width: 50%;
   }
 

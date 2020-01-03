@@ -318,13 +318,13 @@ svg circle:nth-child(2){
 
 .cards:nth-child(4) svg circle:nth-child(2)
 {
-  stroke-dashoffset: 110;
+  stroke-dashoffset: 120;
   stroke: $primary-color;
 }
 
 .cards:nth-child(5) svg circle:nth-child(2)
 {
-  stroke-dashoffset: 110;
+  stroke-dashoffset: 125;
   stroke: $primary-color;
 }
 
@@ -333,7 +333,21 @@ svg circle:nth-child(2){
   stroke-dashoffset: 110;
   stroke: $primary-color;
 }
-
+.resume__body-designskill-container .cards:nth-child(1) svg circle:nth-child(2)
+{
+  stroke-dashoffset: 110;
+  stroke: $primary-color;
+} 
+.resume__body-designskill-container .cards:nth-child(2) svg circle:nth-child(2)
+{
+  stroke-dashoffset: 100;
+  stroke: $primary-color;
+} 
+.resume__body-designskill-container .cards:nth-child(3) svg circle:nth-child(2)
+{
+  stroke-dashoffset: 125;
+  stroke: $primary-color;
+} 
 .skills-info{
     display:flex;
     justify-content: center;
@@ -890,6 +904,9 @@ button:hover, input[type="button"]:hover, input[type="submit"]:hover {
   height: 65%;
 }
 .resume__body-skill-container{
+  width:50%;
+}
+.resume__body-designskill-container{
   width:50%;
 }
 .information__header-image {
